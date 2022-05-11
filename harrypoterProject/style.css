@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'hpfont';
+    src: url('https://fonts.cdnfonts.com/s/25438/HARRP___.woff') format('woff')
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2') format('woff2');
+}
+
+
+
+#contendorDePreguntas {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question-title {
+    font-family: 'hpfont';
+    color: rgba(151, 116, 51, 1);
+    text-align: center;
+}
+
+.questionBox {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgba(2, 5, 8, 0.75);
+    margin-bottom: 20px;    
+}
+
+.questionBox-image {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.questionBox-image img {
+    width:300px ;
+    height: auto;
+}
+
+.questionBox-answers {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.questionBox-answers input{
+    margin-bottom: 20px;
+
+} 
+
+button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    background-color:rgba(151, 116, 51, 0.8);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(104, 71, 10, 0.8);
+}
+
+#results {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#results-container {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: fit-content; /* Could be more or less, depending on screen size */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 20px;
+}
+
+
+
+#results-container h2 {
+    font-family: 'hpfont';
+    font-size: 3rem; 
+}
+
+#results-container p {
+    font-family: 'Montserrat';
+    font-size: 1rem; 
+    padding-bottom: 20px;
+}
+
+
+#boton {
+    margin-left: 40vw;
+    margin-right: 20px;
+    background-color: rgba(151, 116, 51, 0.8);   
+}
+
+#boton2 {
+    margin-right: 40vw;
+    background-color: #0E4562;
+} 
+
+#boton2:hover {
+    cursor: pointer;
+    background-color: #052b3f;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
